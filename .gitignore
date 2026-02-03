@@ -1,0 +1,58 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be committed to version control.
+.vscode/
+!.vscode/extensions.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Flutter.xcconfig
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/local.properties
+**/ios/Flutter/flutter_build.log
+**/ios/Pods/
+**/ios/Podfile
+**/ios/Podfile.lock
+**/ios/Runner.xcworkspace/
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradle-wrapper.jar
+**/android/gradlew
+**/android/gradlew.bat
+**/android/key.properties
+**/android/**/GeneratedPluginRegistrant.java
+build/
+**/flutter_*.png
+**/generated_plugins.cmake
+**/flutter/generated_plugins.cmake
+**/ephemeral/
+.env
+.env.*
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata

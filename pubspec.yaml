@@ -1,0 +1,44 @@
+name: rps_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.1.1
+  flutter_dotenv: ^5.1.0
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  image_picker: ^1.0.4
+  # flutter_image_compress caused AGP namespace errors on some setups.
+  # Use the pure-Dart `image` package instead to perform in-isolate compression.
+  image: ^4.0.17
+  flutter_native_splash: ^2.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/RPS_logo.png"
+
+flutter_native_splash:
+  color: "#6c0000" 
+  image: assets/images/RPS_logo.png 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/RPS_logo.png
